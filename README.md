@@ -79,9 +79,4 @@ test_snapshot: 50
 test_output: '<path>'
 ```
 
-Run predictions
-```
-CUDA_VISIBLE_DEVICES=1 python run-hed.py --test --config-file hed/configs/hed.yaml --gpu-limit 0.4
-feh <test_output>
-```
 
